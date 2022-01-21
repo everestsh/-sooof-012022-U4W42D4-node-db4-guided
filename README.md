@@ -30,3 +30,19 @@ For the `animals` the client wants to record:
 - list of all the zoos where they have resided.
 
 Determine the database tables necessary to track this information and build the migrations
+
+
+
+```
+knex init
+knex migrate:make create-tables
+
+
+ knex migrate:make 
+
+ npx  knex migrate:make  first-migration
+
+
+Web 49 - Data Modeling w/ Gabe 
+ https://www.youtube.com/watch?v=YhoqhR_OzDk
+```
